@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.title {
+
+    &__h2 {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 600;
+        color: #FFF;
+        background: #cd2d39;
+        padding: 1.5vw 3vw;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+    &__red{
+        line-height: 1.5;
+        color: #cd2d39;
+        padding: rem(5);
+        border: 2px solid #cd2d39;
+    }
+
+}

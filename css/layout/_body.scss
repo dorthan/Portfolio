@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background: #0f142a;
+    color: #FFF;
+}
+
+.wrap {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+main {
+    min-height: 60vh;
+    padding: 20px !important;
+}
+
+
+.text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+hr{
+    margin: 5px 0;
+}
+
