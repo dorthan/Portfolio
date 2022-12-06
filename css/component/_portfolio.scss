@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.main{
+    padding: rem(50) rem(15) !important;
+    h2{
+        margin-bottom: rem(50);
+    }
+    h3{
+        margin-top: rem(20);
+        margin-bottom: rem(0);
+        font-weight: bold;
+    }
+
+    h4{
+        margin-top: rem(10);
+        margin-bottom: rem(5);
+        font-weight: bold;
+    }
+
+    hr{
+        margin-top: rem(20);
+        border-color: #FFF;
+    }
+
+    a{
+        display: block;
+        color: #AAA;
+        text-decoration: none;
+        word-wrap: break-word;
+        &:hover{
+          color: #FFF;
+          text-decoration: underline;
+        }
+      }
+
+}

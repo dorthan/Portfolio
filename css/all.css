@@ -10646,10 +10646,6 @@ p {
   line-height: 1.5rem;
 }
 
-a:hover {
-  color: #070a1d;
-}
-
 body {
   background: #0f142a;
   color: #FFF;
@@ -10684,5 +10680,42 @@ main {
 
 hr {
   margin: 5px 0;
+}
+
+.main {
+  padding: 3.125rem 0.9375rem !important;
+}
+
+.main h2 {
+  margin-bottom: 3.125rem;
+}
+
+.main h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+.main h4 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.3125rem;
+  font-weight: bold;
+}
+
+.main hr {
+  margin-top: 1.25rem;
+  border-color: #FFF;
+}
+
+.main a {
+  display: block;
+  color: #AAA;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.main a:hover {
+  color: #FFF;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=all.css.map */
