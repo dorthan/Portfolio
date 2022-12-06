@@ -10687,19 +10687,20 @@ hr {
 }
 
 .main h2 {
-  margin-top: 1.25rem;
-  margin-bottom: 3.125rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 .main h3 {
   margin-top: 1.25rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1.25rem;
   font-weight: bold;
 }
 
 .main h4 {
-  margin-top: 0.625rem;
-  margin-bottom: 0.3125rem;
+  line-height: 1.2;
+  margin-top: 0.9375rem;
+  margin-bottom: 0rem;
   font-weight: bold;
 }
 

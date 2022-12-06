@@ -3,18 +3,19 @@
 .main{
     padding: rem(50) rem(15) !important;
     h2{
-        margin-top: rem(20);
-        margin-bottom: rem(50);
+        margin-top: rem(30);
+        margin-bottom: rem(30);
     }
     h3{
         margin-top: rem(20);
-        margin-bottom: rem(0);
+        margin-bottom: rem(20);
         font-weight: bold;
     }
 
     h4{
-        margin-top: rem(10);
-        margin-bottom: rem(5);
+        line-height: 1.2;
+        margin-top: rem(15);
+        margin-bottom: rem(0);
         font-weight: bold;
     }
 
