@@ -2,14 +2,18 @@
 
 .main{
     padding: rem(50) rem(15) !important;
+    h1{
+        line-height: 1.2;
+    }
     h2{
         margin-top: rem(30);
         margin-bottom: rem(30);
     }
     h3{
-        margin-top: rem(20);
-        margin-bottom: rem(20);
+        margin-top: rem(5);
+        margin-bottom: rem(5);
         font-weight: bold;
+        color: #0f142a;
     }
 
     h4{
@@ -32,6 +36,16 @@
         &:hover{
           color: #FFF;
           text-decoration: underline;
+        }
+      }
+
+      .card{
+        &-body{
+            color: #0f142a;
+
+            a{
+                color: #666;
+            }
         }
       }
 
